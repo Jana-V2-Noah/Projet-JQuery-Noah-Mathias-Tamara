@@ -1,0 +1,23 @@
+html {
+    background: #ccc;
+}
+
+body {
+    font-family: sans-serif;
+    max-width:1000px;
+    border: none;
+    background: white;
+    margin: 0 auto;
+    padding: 10px;
+	box-shadow: 1px 1px 12px #aaa;
+}
+
+label {
+  display:inline-block;
+  width:150px;
+}
+
+table {
+    margin:auto;
+    border-collapse: collapse;
+}
