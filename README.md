@@ -5,10 +5,10 @@ Cahier des charges pour le site web SPC2 - Plateforme de Révision de Physique e
 1. Nom du Projet : SPC2 - Révisions de Physique et Chimie
 
 2. Objectifs :
-   - Fournir une plateforme interactive : Créer une interface utilisateur similaire à Duolingo et Kahoot, favorisant l'engagement et l'apprentissage.
-   - Révisions ciblées : Proposer des fiches de révision claires et concises pour les concepts clés de Physique et Chimie.
-   -  Suivi de progression : Intégrer un système de suivi de la progression des utilisateurs pour les motiver et les encourager dans leur apprentissage. (Si Possible)
-   -  Compatibilité multi-dispositifs : Assurer la compatibilité du site sur différents dispositifs (ordinateurs, smartphones) pour une accessibilité maximale.
+ - Fournir une plateforme interactive : Créer une interface utilisateur similaire à Duolingo et Kahoot, favorisant l'engagement et l'apprentissage.
+ - Révisions ciblées : Proposer des fiches de révision claires et concises pour les concepts clés de Physique et Chimie.
+ -  Suivi de progression : Intégrer un système de suivi de la progression des utilisateurs pour les motiver et les encourager dans leur apprentissage. (Si Possible)
+ -  Compatibilité multi-dispositifs : Assurer la compatibilité du site sur différents dispositifs (ordinateurs, smartphones) pour une accessibilité maximale.
 
 3. Contraintes :
   - Contenu éducatif : Le site doit fournir un contenu éducatif de qualité, précis et adapté au programme de Physique et Chimie.
