@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPC²</title>
+    <link rel="stylesheet" href="C0.2.css"> <!-- Link to CSS file -->
+</head>
+<body>
+
+    <header class="sticky-header">
+        <h1>SPC² - La physique en divertissement </h1>
+        <nav>
+            <ul>
+                <li><a href="#Introduction" id="intro-btn">Introduction</a></li> <!-- Jump button for Introduction section -->
+                <li class="dropdown">
+                    <a href="#fiches-de-revisions" class="dropbtn">Fiches de Révisions</a> <!-- Dropdown button for study guides -->
+                    <div class="dropdown-content">
+                        <!-- Structure for study guides goes here -->
+                    </div>
+                </li>
+                <li><a href="#quiz" id="quiz-btn">Quiz</a></li> <!-- Jump button for Quiz section -->
+            </ul>
+        </nav>
+    </header>
+    
+   
+    <main>
+        <div id="Introduction">
+            <h3>SPC² est un outil de révision créé par Matthias, Noah et Tamara</h3>
+            <p>
+                SPC² est  un outil de revision pour la physique-chimie. Notre but est de nous faire apprendre à l'aide d'un quiz amusant!
+            </p>
+        </div>
+        <div id="fiches-de-revisions">
+            <!-- Content for "Fiches de Révisions" goes here -->
+        </div>
+        <div id="quiz">
+            <div id="question-container"></div>
+            <div id="result-container"></div>
+            <button id="submit-btn">Soumettre</button>
+        </div>
+    </main>
+
+<script src="jquery-3.7.1.min.js"></script> <!-- jQuery library -->
+<script src="J0.2.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
