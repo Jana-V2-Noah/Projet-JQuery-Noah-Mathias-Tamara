@@ -1,0 +1,89 @@
+/* Set basic styling for the whole page */
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set font family */
+}
+
+/* Style for the sticky header */
+.sticky-header {
+    background-color: #333; /* Set background color */
+    padding: 10px 0; /* Add padding top and bottom */
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Set z-index to ensure it's above other elements */
+}
+
+/* Style for the header title */
+.sticky-header h1 {
+    color: #fff; /* Set text color */
+    margin: 0; /* Remove default margin */
+    padding-left: 20px; /* Add padding to the left */
+}
+
+/* Style for the navigation menu */
+.sticky-header nav ul {
+    list-style-type: none; /* Remove list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for each item in the navigation menu */
+.sticky-header nav ul li {
+    display: inline; /* Display items horizontally */
+    margin-right: 20px; /* Add margin to the right of each item */
+}
+
+/* Style for navigation links */
+.sticky-header nav ul li a {
+    color: #fff; /* Set text color */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Style for dropdown menus */
+.dropdown {
+    position: relative; /* Set position to relative */
+    display: inline-block; /* Make it behave like a block element */
+    padding: 0 20px; /* Add padding to the dropdown */
+}
+
+/* Style for dropdown content */
+.dropdown-content {
+    display: none; /* Hide dropdown content by default */
+    position: absolute; /* Set position to absolute */
+    background-color: #f9f9f9; /* Set background color */
+    min-width: 160px; /* Set minimum width */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Add box shadow */
+    z-index: 1; /* Set z-index to ensure it's above other elements */
+    padding: 10px; /* Add padding to the dropdown content */
+}
+
+/* Style for dropdown links */
+.dropdown-content a {
+    color: black; /* Set text color */
+    padding: 12px 16px; /* Add padding */
+    text-decoration: none; /* Remove default underline */
+    display: block; /* Make it behave like a block element */
+}
+
+/* Style for dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Change background color on hover */
+}
+
+/* Display dropdown content when dropdown is hovered */
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown content */
+}
+
+/* Style for sections: Introduction, Fiches de Révisions, and Quiz */
+#Introduction,
+#fiches-de-revisions,
+#quiz {
+    padding: 20px 20px 0; /* Add padding to the sides, omit bottom padding for separation */
+    border-bottom: 1px solid #ccc; /* Add border-bottom for separation */
+}
+
+/* Style for the submit button */
+#submit-btn {
+    margin-top: 20px; /* Add margin to the top */
+}
