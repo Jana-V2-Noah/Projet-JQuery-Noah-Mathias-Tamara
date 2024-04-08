@@ -125,10 +125,10 @@ $(document).ready(function () {
             }
         });
 
-        const score = (correctAnswers / questions.length) * 100;
+        const score = (correctAnswers / 5) * 100;
         const incorrectAnswers = questions.length - correctAnswers;
 
-        resultContainer.html(`Score: ${((correctAnswers / 5) * 100).toFixed(2)}%<br>Réponses correctes: ${correctAnswers}/5 (${((correctAnswers / 5) * 100).toFixed(2)}%)<br>Réponses incorrectes: ${5 - correctAnswers}/5 (${(((5 - correctAnswers) / 5) * 100).toFixed(2)}%)<br><br>`);
+        resultContainer.html(`Score: ${score.toFixed(2)}%<br>Réponses correctes: ${correctAnswers}/5 (${((correctAnswers / 5) * 100).toFixed(2)}%)<br>Réponses incorrectes: ${5 - correctAnswers}/5 (${(((5 - correctAnswers) / 5) * 100).toFixed(2)}%)<br><br>`);
 
         const failImage = "platypus_fail.png"; // Fail image
         const partialImage = "platypus_partial.png"; // Partial success image
