@@ -136,7 +136,7 @@ $(document).ready(function () {
 
         if (score < 50) {
             resultContainer.append(`<img src="${failImage}" alt="Fail Image">`);
-        } else if (score < 75) {
+        } else if (score < 80) {
             resultContainer.append(`<img src="${partialImage}" alt="Partial Success Image">`);
         } else {
             resultContainer.append(`<img src="${successImage}" alt="Success Image">`);
