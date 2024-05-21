@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPC² - La physique en divertissement</title>
+    <link rel="stylesheet" href="C0.4.1.css"> <!-- Link to CSS file -->
+</head>
+<body>
+
+    <header class="sticky-header">
+        <div class="logo-container">
+            <img src="platypus_normal.png" alt="SPC² Logo"> <!-- Add your logo image -->
+            <h1>SPC² - La physique en divertissement </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Introduction" id="intro-btn">Introduction</a></li> <!-- Jump button for Introduction section -->
+                <li><a href="#quiz" id="quiz-btn">Quiz</a></li> <!-- Jump button for Quiz section -->
+                <li class="dropdown">
+                    <a href="#fiches-de-revisions" class="dropbtn">Fiche de révision</a> <!-- Dropdown button for study guides -->
+                    <div class="dropdown-content">
+                        <!-- Structure for study guides goes here -->
+                    </div>
+                </li> 
+            </ul>
+        </nav>
+    </header>
+    
+   
+    <main>
+        <div id="Introduction">
+            <h3><em>SPC² est un outil de révision pour la physique-chimie.</em></h3>
+            <p>
+                <em>Notre but est d'offrir un apprentissage lucratif et amusant !</em>
+                <em>Voici cinq questions aléatoires auxquelles vous devez répondre. Êtes-vous perdu ? Jetez un œil à notre fiche de révision !</em>
+            </p>
+            <hr>
+            <br>
+        </div>
+        <div id="quiz">
+            <div id="question-container"></div>
+            <div id="result-container"></div>
+            <button id="submit-btn">Soumettre</button>
+            <hr>
+            <br>
+            <br>
+        </div>
+        <div id="fiches-de-revisions">
+            <h2>Fiche de révision</h2>
+            <h3>Mécanique</h3>
+            <p>
+                <strong>Grandeur physique :</strong> Caractéristique d'un objet ou phénomène pouvant être mesuré.<br>
+                <strong>Force pressante :</strong> Il s’agit d’une force de poussée exercée lors du contact entre un fluide (un gaz ou un liquide) et un autre corps.<br>
+                <strong>Pression atmosphérique :</strong> La force exercée par l'atmosphère sur une surface.<br>
+                <strong>Densité :</strong> La masse par unité de volume.<br>
+                <strong>Force gravitationnelle :</strong> Une force qui attire tous les objets dotés de masse.<br>
+                <strong>Lois du mouvement :</strong> Formulées par Isaac Newton.<br>
+                - Première loi : Loi de l'inertie.<br>
+                - Deuxième loi : F = m*a.<br>
+                <strong>Unité de la force :</strong> Newton (N).
+            </p>
+        
+            <!-- Électromagnétisme -->
+            <h3>Électromagnétisme</h3>
+            <p>
+                <strong>Loi de Coulomb :</strong> Elle décrit l'interaction électrostatique entre des charges électriques.<br>
+                <strong>Circuits électriques :</strong><br>
+                - En série : Les composants sont connectés les uns après les autres.<br>
+                - En parallèle : Les composants sont connectés parallèlement.<br>
+                <strong>Résistance électrique :</strong> La propriété d'un matériau à s'opposer au passage du courant électrique.<br>
+                <strong>Loi d'Ohm :</strong> La tension dans un circuit est égale au produit de la résistance par l'intensité du courant.<br>
+                <strong>Capacité d'un condensateur :</strong> Sa capacité à stocker de la charge électrique.<br>
+                <strong>Loi de Faraday :</strong> Elle décrit l'induction électromagnétique, c'est-à-dire la création d'une force électromotrice dans un circuit par un champ magnétique variable.<br>
+                <strong>Onde électromagnétique :</strong> Une onde qui se propage à travers l'espace et le vide, composée de champs électriques et magnétiques oscillants perpendiculaires entre eux.<br>
+                <strong>Vitesse de la lumière dans le vide :</strong> 299 792 458 m/s.<br>
+                <strong>Énergie d'un photon :</strong> E = h*f.
+            </p>
+        
+            <!-- Optique -->
+            <h3>Optique</h3>
+            <p>
+                <strong>Réfraction de la lumière :</strong> Le changement de direction de la lumière lorsqu'elle passe d'un milieu à un autre.<br>
+                <strong>Polarisation de la lumière :</strong> L'orientation des oscillations de la lumière dans un plan spécifique.<br>
+                <strong>Diffraction de la lumière :</strong> La propagation de la lumière dans toutes les directions après avoir rencontré un obstacle.<br>
+                <strong>Couleurs complémentaires :</strong><br>
+                - Rouge : Cyan<br>
+                - Vert : Magenta<br>
+                - Bleu : Jaune
+            </p>
+        
+            <!-- Énergie -->
+            <h3>Énergie</h3>
+            <p>
+                <strong>Énergie cinétique :</strong> L'énergie associée au mouvement d'un objet.<br>
+                <strong>Formule de l'énergie cinétique :</strong> E = (1/2)mv^2.<br>
+                <strong>Énergie potentielle gravitationnelle :</strong><br>
+                - <strong>Définition :</strong> L'énergie stockée dans un objet en raison de sa position par rapport à la surface de la Terre.<br>
+                - <strong>Formule :</strong> E = m*g*h<br>
+                <strong>Énergie potentielle élastique :</strong><br>
+                - <strong>Définition :</strong> L'énergie stockée dans un objet en raison de sa déformation.<br>
+                - <strong>Formule :</strong> E = 1/2*k*x²<br>
+                <strong>Chaleur :</strong><br>
+                - <strong>Définition :</strong> L'énergie transférée entre deux systèmes ou entre un système et son environnement du fait d'une différence de température.<br>
+                - <strong>Unité dans le SI :</strong> Joule (J)<br>
+                <strong>Chaleur spécifique et capacité thermique :</strong><br>
+                - <strong>Différence :</strong> La chaleur spécifique est la quantité de chaleur nécessaire pour élever la température d'une unité de masse d'une substance d'un degré Celsius, tandis que la capacité thermique est la quantité de chaleur nécessaire pour élever la température d'un objet entier d'un degré Celsius.<br>
+                <strong>Changement d'état :</strong><br>
+                - Fusion : Le passage d'un état solide à un état liquide.<br>
+                - Vaporisation : Le passage d'un état liquide à un état gazeux.<br>
+                - <strong>Différence entre la chaleur latente de fusion et la chaleur latente de vaporisation :</strong> La première concerne le passage d'un solide à un liquide, tandis que la seconde concerne le passage d'un liquide à un gaz.<br>
+                <strong>Transfert de chaleur :</strong><br>
+                - Conductivité thermique : La capacité d'un matériau à conduire la chaleur. Unité dans le SI : Watt par mètre kelvin (W/m*K)<br>
+                - Convection thermique : Le transfert de chaleur par le déplacement de masses fluides chaudes et froides.<br>
+                - Radiation thermique : Le transfert de chaleur par le rayonnement électromagnétique.<br>
+                <strong>Lois de la thermodynamique :</strong><br>
+                - Loi de Gay-Lussac : Relation entre la pression et la température d'un gaz à volume constant.<br>
+                - Loi de Charles : Relation entre la température et le volume d'un gaz à pression constante.<br>
+                - Loi de Boyle-Mariotte : Relation entre la pression et le volume d'un gaz à température constante.<br>
+            </p>
+        
+            <!-- Réactions chimiques -->
+            <h3>Catalyse et réactions chimiques</h3>
+            <p>
+                <strong>Catalyseur :</strong> Substance qui accélère une réaction chimique sans être consommée lors de la réaction.<br>
+                <strong>Catalyse homogène :</strong> Réaction où le catalyseur est dans le même état que les réactifs.<br>
+                <strong>Catalyse hétérogène :</strong> Réaction où le catalyseur est dans un état différent des réactifs.<br>
+                <strong>Différence entre catalyseur et inhibiteur :</strong> Le premier accélère la réaction tandis que le second la ralentit.<br>
+                <strong>Réactions chimiques :</strong><br>
+                - <strong>Vitesse de réaction :</strong> La vitesse à laquelle les réactifs sont convertis en produits.<br>
+                - <strong>Facteurs influençant la vitesse d'une réaction :</strong> Température, concentration des réactifs, présence d'un catalyseur.<br>
+                - <strong>Constante d'équilibre :</strong> Valeur exprimant la relation entre les concentrations des réactifs et des produits à l'équilibre dans une réaction chimique.<br>
+                <strong>Acides, bases et réactions :</strong><br>
+                - <strong>Constante d'acidité (pH) :</strong> Mesure de la force d'un acide.<br>
+                - <strong>Différence entre acide fort et acide faible :</strong> Le premier se dissocie complètement en solution, tandis que le second se dissocie partiellement.<br>
+                - <strong>Neutralisation :</strong> Réaction chimique entre un acide et une base pour former de l'eau et un sel.<br>
+            </p>
+            <hr>
+            <br>
+            <br>
+        </div>
+    </main>
+    
+<script src="jquery-3.7.1.min.js"></script> <!-- jQuery library -->
+<script src="J0.4.1.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
